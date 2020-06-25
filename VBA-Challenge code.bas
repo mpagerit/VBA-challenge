@@ -62,19 +62,10 @@ For Each ws In Worksheets
                 'Print out the total stock volume
                 ws.Cells(j, 12) = StockVolume
                 
-    'This code used during the development process to verify calculcated values were correct
-    '---------------------------------------------------------------------------------------------------
-                'Print out the Year opening price
-                'ws.Cells(j, 14) = YearOpen
-    '---------------------------------------------------------------------------------------------------
                 
                 'Set the new YearClose Value
                 YearClose = ws.Cells(i - 1, 6)
                 
-    'This code used during the development process to verify calculcated values were correct
-    '---------------------------------------------------------------------------------------------------
-                'ws.Cells(j, 15) = YearClose
-    '------------------------------------------------------------------------------------------------------
                 
                 'Calculate and print the Yearly Change
                 ws.Cells(j, 10).Value = YearClose - YearOpen
