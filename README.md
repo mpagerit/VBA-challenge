@@ -8,4 +8,4 @@ The tab for each year also calculates and displays the stock with the greatest %
 
 ## Results
 
-![2014 Data](/images/2014StockData)
+![2014 Data](/images/2014StockData.PNG)
