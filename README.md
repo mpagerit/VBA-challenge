@@ -7,3 +7,5 @@ The code summarizes each stock's yearly change in value, highlighting in green f
 The tab for each year also calculates and displays the stock with the greatest % increase, the greatest % decrease, adn the greatest total volume.
 
 ## Results
+
+![2014 Data](/images/2014StockData)
